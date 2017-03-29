@@ -1,0 +1,53 @@
+<orders>
+
+    <order>
+
+        <orderheader>
+            <ordernum>1</ordernum>
+            <orderdate>10/10/2007</orderdate>
+        </orderheader>
+
+        <orderline>
+            <linenum>1</linenum>
+            <itemnum>102</itemnum>
+            <price>1,95</price>
+            <amount>10</amount>
+        </orderline>
+
+
+    </order>
+
+
+    <order>
+
+        <orderheader>
+            <ordernum>2</ordernum>
+            <orderdate>10/10/2007</orderdate>
+        </orderheader>
+
+        <orderline>
+            <linenum>1</linenum>
+            <itemnum>234</itemnum>
+            <price>1,49</price>
+            <amount>20</amount>
+        </orderline>
+
+        <orderline>
+            <linenum>2</linenum>
+            <itemnum>565</itemnum>
+            <price>0,99</price>
+            <amount>2</amount>
+        </orderline>
+
+        <orderline>
+            <linenum>3</linenum>
+            <itemnum>83</itemnum>
+            <price>0,75</price>
+            <amount>1</amount>
+        </orderline>
+
+    </order>
+
+
+</orders>
+
