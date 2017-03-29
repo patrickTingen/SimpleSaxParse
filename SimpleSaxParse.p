@@ -28,9 +28,9 @@ define temp-table ttElement no-undo
   .     
 
 /* Where are we running from? */
-FILE-INFO:FILE-NAME = THIS-PROCEDURE:FILE-NAME.
-cStartFolder = REPLACE(FILE-INFO:FULL-PATHNAME,"\","/").
-cStartFolder = SUBSTRING(cStartFolder,1,R-INDEX(cStartFolder,'/')).
+file-info:file-name = this-procedure:file-name.
+cStartFolder = replace(file-info:full-pathname,"\","/").
+cStartFolder = substring(cStartFolder,1,r-index(cStartFolder,'/')).
 
 /* Run the handler procedure */
 run value(cStartFolder + 'SimpleCallBack.p') persistent set hHandler. 
@@ -47,11 +47,9 @@ hParser:sax-parse() no-error.
 if error-status:error then
 do:
   if error-status:num-messages > 0 then
-    message error-status:get-message(1) 
-      view-as alert-box info buttons ok.
+    message error-status:get-message(1) view-as alert-box info buttons ok.
   else 
-    message return-value
-      view-as alert-box info buttons ok.
+    message return-value view-as alert-box info buttons ok.
 end.
 
 run getTable in hHandler ( output table ttElement ).

@@ -171,3 +171,20 @@ procedure EndDocument.
   find last bElement where lOpen = true use-index idxOpen.
   assign bElement.lOpen = false.
 end procedure. /* EndDocument */
+
+
+procedure Error:
+  define input parameter pcMessage as character no-undo.
+
+  message "Schema validation error in " gcPath ": " pcMessage view-as alert-box.
+  return error.
+end procedure. /* Error */
+
+
+procedure FatalError:
+  define input parameter pcMessage as character no-undo.
+
+  message "Fatal Error in " gcPath ": " pcMessage view-as alert-box.
+  return error.
+end procedure. /* FatalError */
+

@@ -1,0 +1,175 @@
+
+Seq# Parent# Child# Element                                                                                                                                                Attribute Value
+---- ------- ------ ------------------------------------------------------------------------------------------------------------------------------------------------------ --------- --------------------
+   1       0      0 /
+   2       1      1 /Customer
+   3       2      1 /Customer/xsd:schema
+   4       3      1 /Customer/xsd:schema/xsd:element
+   4       3      1 /Customer/xsd:schema/xsd:element                                                                                                                       name      Customer
+   4       3      1 /Customer/xsd:schema/xsd:element                                                                                                                       proTempT  true
+   5       4      1 /Customer/xsd:schema/xsd:element/xsd:complexType
+   6       5      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence
+   7       6      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+   7       6      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                                                              name      CustomerRow
+   7       6      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                                                              minOccur  0
+   7       6      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                                                              maxOccur  unbounded
+   8       7      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType
+   9       8      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Cust-Num
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:int
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Cust-Num
+  10       9      1 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    >>>>9
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Country
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     default   USA
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Country
+  11       9      7 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Name
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Name
+  12       9     14 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Address
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Address
+  13       9     20 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Address2
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Address2
+  14       9     26 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      City
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  City
+  15       9     32 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(12)
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      State
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  State
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  16       9     38 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     help      Enter standard state
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Postal-Code
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Postal-Code
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(10)
+  17       9     45 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     help      Please enter the app
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Contact
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Contact
+  18       9     52 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Phone
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Phone
+  19       9     58 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Sales-Rep
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Sales-Rep
+  20       9     64 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    X(4)
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Credit-Limit
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:decimal
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     default   1500.0
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Credit-Limit
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    ->,>>>,>>9
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     help      Please enter a Credi
+  21       9     70 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     decimals  2
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Balance
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:decimal
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Balance
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    ->,>>>,>>9.99
+  22       9     79 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     decimals  2
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Terms
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     default   Net30
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Terms
+  23       9     86 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(20)
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Discount
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:int
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Discount
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    >>9%
+  24       9     93 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     help      Enter a percentage f
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     name      Comments
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     type      xsd:string
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     nillable  true
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     fieldNam  Comments
+  25       9    100 /Customer/xsd:schema/xsd:element/xsd:complexType/xsd:sequence/xsd:element/xsd:complexType/xsd:sequence/xsd:element                                     format    x(60)
+  26       4      1 /Customer/xsd:schema/xsd:element/xsd:unique
+  26       4      1 /Customer/xsd:schema/xsd:element/xsd:unique                                                                                                            name      Cust-Num
+  26       4      1 /Customer/xsd:schema/xsd:element/xsd:unique                                                                                                            primaryI  true
+  27      26      1 /Customer/xsd:schema/xsd:element/xsd:unique/xsd:selector
+  27      26      1 /Customer/xsd:schema/xsd:element/xsd:unique/xsd:selector                                                                                               xpath     .//CustomerRow
+  28      26      1 /Customer/xsd:schema/xsd:element/xsd:unique/xsd:field
+  28      26      1 /Customer/xsd:schema/xsd:element/xsd:unique/xsd:field                                                                                                  xpath     Cust-Num
+  29       3      1 /Customer/xsd:schema/xsd:annotation
+  30      29      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo
+  31      30      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index
+  31      30      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index                                                                                          name      Comments
+  31      30      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index                                                                                          wordInde  true
+  32      31      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table
+  32      31      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table                                                                            name      Customer
+  33      31      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field
+  33      31      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field                                                                            name      Comments
+  34      30      4 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index
+  34      30      4 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index                                                                                          name      Country-Post
+  35      34      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table
+  35      34      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table                                                                            name      Customer
+  36      34      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field
+  36      34      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field                                                                            name      Country
+  37      34      3 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field
+  37      34      3 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field                                                                            name      Postal-Code
+  38      30      6 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index
+  38      30      6 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index                                                                                          name      Name
+  39      38      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table
+  39      38      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table                                                                            name      Customer
+  40      38      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field
+  40      38      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field                                                                            name      Name
+  41      30      8 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index
+  41      30      8 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index                                                                                          name      Sales-Rep
+  42      41      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table
+  42      41      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:table                                                                            name      Customer
+  43      41      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field
+  43      41      1 /Customer/xsd:schema/xsd:annotation/xsd:appinfo/prodata:index/prodata:field                                                                            name      Sales-Rep
+  44       2      1 /Customer/CustomerRow
+  45      44      1 /Customer/CustomerRow/Cust-Num                                                                                                                                   1
+  46      44      1 /Customer/CustomerRow/Country                                                                                                                                    USA
+  47      44      1 /Customer/CustomerRow/Name                                                                                                                                       Lift Line Skiing
+  48      44      1 /Customer/CustomerRow/Address                                                                                                                                    276 North Street
+  49      44      1 /Customer/CustomerRow/Address2
+  50      44      1 /Customer/CustomerRow/City                                                                                                                                       Boston
+  51      44      1 /Customer/CustomerRow/State                                                                                                                                      MA
+  52      44      1 /Customer/CustomerRow/Postal-Code                                                                                                                                02114
+  53      44      1 /Customer/CustomerRow/Contact                                                                                                                                    Gloria Shepley
+  54      44      1 /Customer/CustomerRow/Phone                                                                                                                                      (617) 450-0087
+  55      44      1 /Customer/CustomerRow/Sales-Rep                                                                                                                                  HXM
+  56      44      1 /Customer/CustomerRow/Credit-Limit                                                                                                                               66700.00
+  57      44      1 /Customer/CustomerRow/Balance                                                                                                                                    42568.00
+  58      44      1 /Customer/CustomerRow/Terms                                                                                                                                      Net30
+  59      44      1 /Customer/CustomerRow/Discount                                                                                                                                   35
+  60      44      1 /Customer/CustomerRow/Comments                                                                                                                                   This customer is on

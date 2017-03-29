@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" xmlns:prodata="urn:schemas-progress-com:xml-prodata:0001">
+    <xsd:element name="Customer" prodata:proTempTable="true">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="CustomerRow" minOccurs="0" maxOccurs="unbounded">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Cust-Num" type="xsd:int" nillable="true" prodata:fieldName="Cust-Num" prodata:format=">>>>9"/>
+                <xsd:element name="Country" type="xsd:string" nillable="true" default="USA" prodata:fieldName="Country" prodata:format="x(20)"/>
+                <xsd:element name="Name" type="xsd:string" nillable="true" prodata:fieldName="Name" prodata:format="x(20)"/>
+                <xsd:element name="Address" type="xsd:string" nillable="true" prodata:fieldName="Address" prodata:format="x(20)"/>
+                <xsd:element name="Address2" type="xsd:string" nillable="true" prodata:fieldName="Address2" prodata:format="x(20)"/>
+                <xsd:element name="City" type="xsd:string" nillable="true" prodata:fieldName="City" prodata:format="x(12)"/>
+                <xsd:element name="State" type="xsd:string" nillable="true" prodata:fieldName="State" prodata:format="x(20)" prodata:help="Enter standard state abbreviation"/>
+                <xsd:element name="Postal-Code" type="xsd:string" nillable="true" prodata:fieldName="Postal-Code" prodata:format="x(10)" prodata:help="Please enter the appropriate Postal Code."/>
+                <xsd:element name="Contact" type="xsd:string" nillable="true" prodata:fieldName="Contact" prodata:format="x(20)"/>
+                <xsd:element name="Phone" type="xsd:string" nillable="true" prodata:fieldName="Phone" prodata:format="x(20)"/>
+                <xsd:element name="Sales-Rep" type="xsd:string" nillable="true" prodata:fieldName="Sales-Rep" prodata:format="X(4)"/>
+                <xsd:element name="Credit-Limit" type="xsd:decimal" nillable="true" default="1500.0" prodata:fieldName="Credit-Limit" prodata:format="->,>>>,>>9" prodata:help="Please enter a Credit Limit" prodata:decimals="2"/>
+                <xsd:element name="Balance" type="xsd:decimal" nillable="true" prodata:fieldName="Balance" prodata:format="->,>>>,>>9.99" prodata:decimals="2"/>
+                <xsd:element name="Terms" type="xsd:string" nillable="true" default="Net30" prodata:fieldName="Terms" prodata:format="x(20)"/>
+                <xsd:element name="Discount" type="xsd:int" nillable="true" prodata:fieldName="Discount" prodata:format=">>9%" prodata:help="Enter a percentage from 0 to 999"/>
+                <xsd:element name="Comments" type="xsd:string" nillable="true" prodata:fieldName="Comments" prodata:format="x(60)"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:unique name="Cust-Num" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//CustomerRow"/>
+        <xsd:field xpath="Cust-Num"/>
+      </xsd:unique>
+    </xsd:element>
+    <xsd:annotation>
+      <xsd:appinfo>
+        <prodata:index name="Comments" prodata:wordIndex="true">
+          <prodata:table name="Customer"/>
+          <prodata:field name="Comments"/>
+        </prodata:index>
+        <prodata:index name="Country-Post">
+          <prodata:table name="Customer"/>
+          <prodata:field name="Country"/>
+          <prodata:field name="Postal-Code"/>
+        </prodata:index>
+        <prodata:index name="Name">
+          <prodata:table name="Customer"/>
+          <prodata:field name="Name"/>
+        </prodata:index>
+        <prodata:index name="Sales-Rep">
+          <prodata:table name="Customer"/>
+          <prodata:field name="Sales-Rep"/>
+        </prodata:index>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:schema>
+  <CustomerRow>
+    <Cust-Num>1</Cust-Num>
+    <Country>USA</Country>
+    <Name>Lift Line Skiing</Name>
+    <Address>276 North Street</Address>
+    <Address2/>
+    <City>Boston</City>
+    <State>MA</State>
+    <Postal-Code>02114</Postal-Code>
+    <Contact>Gloria Shepley</Contact>
+    <Phone>(617) 450-0087</Phone>
+    <Sales-Rep>HXM</Sales-Rep>
+    <Credit-Limit>66700.00</Credit-Limit>
+    <Balance>42568.00</Balance>
+    <Terms>Net30</Terms>
+    <Discount>35</Discount>
+    <Comments>This customer is on credit hold.</Comments>
+  </CustomerRow>
+</Customer>
