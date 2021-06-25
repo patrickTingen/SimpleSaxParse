@@ -58,8 +58,8 @@ output to value(cStartFolder + 'sax-output.txt').
 for each ttElement:
   display
     ttElement.iId
-    ttElement.iParent
-    ttElement.iChild
+    ttElement.iParentNr
+    ttElement.iChildNr
     ttElement.cName 
     ttElement.cAttr 
     ttElement.cValue 
